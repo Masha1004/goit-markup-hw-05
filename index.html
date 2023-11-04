@@ -504,7 +504,7 @@
                 class="review-form-field-icon"
                 width="18"
                 height="18"
-                aria-label="modal close button"
+                aria-label="modal person"
               >
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -514,27 +514,47 @@
             <label class="review-form-field-label" for="user-phone"
               >Phone</label
             >
-            <input
-              class="review-form-field"
-              type="tel"
-              name="user_phone_number"
-              id="user-phone"
-              required
-              pattern="[0-9]{3}-[0-9]{3}[0-9]{2}-[0-9]{2}"
-              title="xxx-xxx-xx-xx"
-            />
+            <div class="reviev-form-input-wrapper">
+              <input
+                class="review-form-field"
+                type="tel"
+                name="user_phone_number"
+                id="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+              />
+              <svg
+                class="review-form-field-icon"
+                width="18"
+                height="24"
+                aria-label="modal phone"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-field-label" for="user-email"
               >Email</label
             >
-            <input
-              class="review-form-field"
-              type="email"
-              name="user_email"
-              id="user-email"
-              required
-            />
+            <div class="reviev-form-input-wrapper">
+              <input
+                class="review-form-field"
+                type="email"
+                name="user_email"
+                id="user-email"
+                required
+              />
+              <svg
+                class="review-form-field-icon"
+                width="18"
+                height="24"
+                aria-label="modal letter"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-field-wrapper">
             <label class="review-form-field-label" for="user-comment"
@@ -549,7 +569,7 @@
           </div>
           <div class="review-form-checkbox-wrapper">
             <input
-              class="review-form-checkbox"
+              class="review-form-checkbox visually-hidden"
               type="checkbox"
               name="user_policy"
               id="user-policy"
@@ -557,7 +577,16 @@
               required
             />
             <label class="review-form-checkbox-label" for="user-policy"
-              >I accept the terms and conditions of the
+              ><span class="reviev-form-own-checkbox"
+                ><svg
+                  class="reviev-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="privacy-policy-link" href="">Privacy Policy</a></label
             >
           </div>
