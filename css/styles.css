@@ -643,7 +643,7 @@ body {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-input-wrapper {
@@ -678,6 +678,10 @@ body {
 
 .review-form-field:focus + .review-form-field-icon {
   fill: #4d5ae5;
+}
+
+.comment-wrapper {
+  margin-bottom: 16px;
 }
 
 .review-form-message {
